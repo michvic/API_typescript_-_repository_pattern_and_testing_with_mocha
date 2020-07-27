@@ -12,14 +12,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/express": "^4.17.6",
+    "bcrypt-nodejs": "0.0.3",
+    "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "knex": "^0.21.1"
+    "http": "0.0.1-security",
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.21.1",
+    "mysql2": "^2.1.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
+    "@types/debug": "^4.1.5",
     "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.7",
     "@types/mocha": "^7.0.2",
     "@types/supertest": "^2.0.9",
     "apidoc": "^0.23.0",
